@@ -1,0 +1,180 @@
+{
+"node":
+    {"node1" : {
+                "name":"初始节点",
+                "required_slots": [
+                    ["配合"],
+                    ["询问语-配合-是"]
+                ],
+                "optional_slots": [],
+                "triggle": [["配合,none"]],
+                "repeat": 2,
+                "welcome": "开场语-身份阐述",
+                "ending":"",
+                "initial":"True",
+                "end":"False"
+            },
+
+     "node2" : {
+                "name":"不配合节点",
+                "required_slots": [
+                    [],
+                    []
+                ],
+                "optional_slots": [],
+                "triggle": [["配合,否"]],
+                "repeat": 2,
+                "welcome": "结束语-不配合",
+                "ending":"",
+                "initial":"False",
+                "end":"True"
+            },
+    "node30" : {
+                "name":"不方便节点",
+                "required_slots": [
+                    [],
+                    []
+                ],
+                "optional_slots": [],
+                "triggle": [["配合,不方便"]],
+                "repeat": 2,
+                "welcome": "结束语-不方便",
+                "ending":"",
+                "initial":"False",
+                "end":"True"
+            },
+    "node31" : {
+                "name":"配合节点",
+                "required_slots": [
+                    ["身份"],
+                    ["询问语-身份"]
+                ],
+                "optional_slots": [],
+                "triggle": [["身份,none","配合,是"]],
+                "repeat": 2,
+                "welcome": "开场语-感谢配合",
+                "ending":"",
+                "initial":"False",
+                "end":"False"
+            },
+    "node4" : {
+                "name":"配合老板节点",
+                "required_slots": [
+                    ["买过","了解","预约"],
+                    ["询问语老板-买过-是","询问语老板-了解-是","询问语老板-预约-是"]
+                ],
+                "optional_slots": [],
+                "triggle": [["身份,老板","配合,是","预约,none"]],
+                "repeat": 2,
+                "welcome": "",
+                "ending":"",
+                "initial":"False",
+                "end":"False"
+            },
+    "node5" : {
+                "name":"配合员工节点",
+                "required_slots": [
+                    ["买过","了解","预约"],
+                    ["询问语员工-买过-是","询问语员工-了解-是","询问语员工-预约-是"]
+                ],
+                "optional_slots": [],
+                "triggle": [["身份,员工","配合,是","预约,none"]],
+                "repeat": 2,
+                "welcome": "",
+                "ending":"",
+                "initial":"False",
+                "end":"False"
+            },
+    "node6" : {
+                "name":"需要预约了解详情",
+                "required_slots": [
+                    [],
+                    []
+                ],
+                "optional_slots": [],
+                "triggle": [["配合,是","预约,是"]],
+                "repeat": 2,
+                "welcome": "结束语-需要预约了解详情",
+                "ending":"",
+                "initial":"False",
+                "end":"True"
+            },
+    "node7" : {
+                "name":"不需要了解详情",
+                "required_slots": [
+                    [],
+                    []
+                ],
+                "optional_slots": [],
+                "triggle": [["配合,是","预约,否"]],
+                "repeat": 2,
+                "welcome": "结束语-不需要了解详情",
+                "ending":"",
+                "initial":"False",
+                "end":"True"
+            }
+
+
+     },
+
+  "global_node":{},
+  "global_error_node":{
+                "name":"异常结束节点",
+                "required_slots": [
+                    [],
+                    []
+                ],
+                "optional_slots": [],
+                "triggle": [],
+                "repeat": 1,
+                "welcome": "结束语-无法理解",
+                "ending":"",
+                "initial":"False",
+                "end":"True"},
+
+
+  "intention2end":{
+       "intention2end_node1": {
+               "name":"敏感用户",
+               "triggle": ["怎么买","要预约","转人工"],
+               "welcome": "结束语-需要预约了解详情",
+               "ending":"True"}
+  },
+
+  "question":["你是谁","无法理解","询问致电原因","号码从哪来"],
+
+  "init_welcome":["开场语-身份阐述","询问语-配合-是"],
+
+  "intention2slot":{
+    "询问语-配合-是":{
+        "肯定": ["配合", "是"],
+        "否定": ["配合", "否"],
+        "暂时没空": ["配合", "不方便"]
+    },
+    "询问语老板-买过-是":{
+        "肯定": ["买过", "是"],
+        "否定": ["买过", "否"]
+    },
+    "询问语老板-了解-是":{
+        "肯定": ["了解", "是"],
+        "否定": ["了解", "否"]
+    },
+    "询问语老板-预约-是":{
+        "肯定": ["预约", "是"],
+        "否定": ["预约", "否"]
+    },
+    "询问语员工-买过-是":{
+        "肯定": ["买过", "是"],
+        "否定": ["买过", "否"]
+    },
+    "询问语员工-了解-是":{
+        "肯定": ["了解", "是"],
+        "否定": ["了解", "否"]
+    },
+    "询问语员工-预约-是":{
+        "肯定": ["预约", "是"],
+        "否定": ["预约", "否"]
+    }
+  }
+
+}

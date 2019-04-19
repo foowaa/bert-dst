@@ -1,0 +1,51 @@
+id,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_stateid,time,history_state,utter,current_state,"
+"
+id time history_state utter current_state"('01',)",2019-01-10 10:01:43,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+"('01',)",2019-01-10 10:09:02,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+"('01',)",2019-01-10 10:09:21,"b""['\xe8\xba\xab\xe4\xbb\xbd,none', '\xe9\x85\x8d\xe5\x90\x88,\xe6\x98\xaf', '\xe8\xb4\xad\xe4\xb9\xb0,none', '\xe4\xba\x86\xe8\xa7\xa3,none', '\xe9\xa2\x84\xe7\xba\xa6,none']""",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+"('01',)",2019-01-10 13:56:01,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+"('01',)",2019-01-10 13:58:08,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+"('01',)",2019-01-10 13:58:20,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']"
+03,2019-01-10 15:01:08,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']"
+03,2019-01-10 15:03:29,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']"
+03,2019-01-10 15:03:38,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']"
+04,2019-01-10 15:42:48,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:42:55,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:43:00,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:43:05,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:47:06,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:48:32,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+04,2019-01-10 15:48:38,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['结束语-无法理解']
+05,2019-01-10 16:59:48,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+05,2019-01-10 16:59:53,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+05,2019-01-10 16:59:57,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['结束语-无法理解']
+05,2019-01-10 17:00:49,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['结束语-无法理解']
+06,2019-01-10 17:02:00,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+06,2019-01-10 17:02:05,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是']
+06,2019-01-10 17:02:11,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['结束语-无法理解']
+07,2019-01-10 17:14:18,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是'],"{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['老板']}","{'身份': 'none', '配合': 'none', '购买': 'none', '了解': 'none', '预约': 'none'}"
+07,2019-01-10 17:19:50,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",['询问语-配合-是'],"{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': 'none', '购买': 'none', '了解': 'none', '预约': 'none'}"
+07,2019-01-10 17:20:43,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']","['开场语-感谢配合', '询问语-身份']","{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': '是', '购买': 'none', '了解': 'none', '预约': 'none'}"
+08,2019-01-10 18:15:34,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']","['开场语-身份阐述', '询问语-配合-是']",,
+08,2019-01-10 18:15:34,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']","['开场语-感谢配合', '询问语-身份']","{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': '是', '购买': 'none', '了解': 'none', '预约': 'none'}"
+08,2019-01-10 18:19:15,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']","['开场语-身份阐述', '询问语-配合-是']",,
+08,2019-01-10 18:19:15,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']","['开场语-感谢配合', '询问语-身份']","{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': '是', '购买': 'none', '了解': 'none', '预约': 'none'}"
+09,2019-01-10 18:22:12,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']","['开场语-身份阐述', '询问语-配合-是']",,
+10,2019-01-10 18:22:36,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']","['开场语-身份阐述', '询问语-配合-是']",,
+10,2019-01-10 18:22:36,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']","['开场语-感谢配合', '询问语-身份']","{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': '是', '购买': 'none', '了解': 'none', '预约': 'none'}"
+11,2019-01-10 18:23:00,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']","['开场语-身份阐述', '询问语-配合-是']",,
+11,2019-01-10 18:23:00,"['身份,none', '配合,none', '购买,none', '了解,none', '预约,none']",好的,"['身份,none', '配合,是', '购买,none', '了解,none', '预约,none']","['开场语-感谢配合', '询问语-身份']","{'身份': [None], '配合': [None], '购买': [None], '了解': [None], '预约': [None], '意图': ['肯定']}","{'身份': 'none', '配合': '是', '购买': 'none', '了解': 'none', '预约': 'none'}"

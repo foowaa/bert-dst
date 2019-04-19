@@ -1,0 +1,44 @@
+pruners:
+  my_pruner:
+    class: 'SensitivityPruner'
+    sensitivities:
+      'bert.embeddings.word_embeddings.weight': 0.25
+      'bert.emdeddings.position_embeddings.weight': 0.35
+      'bert.embeddings.token_type_embeddings.weight': 0.40
+      'bert.encoder.layer.0.attention.self.query.weight': 0.45
+      'bert.encoder.layer.0.attention.self.value.weight': 0.55
+      'bert.encoder.layer.0.attention.self.key.weight': 0.875
+      'bert.encoder.layer.1.attention.self.query.weight': 0.45
+      'bert.encoder.layer.1.attention.self.value.weight': 0.55
+      'bert.encoder.layer.1.attention.self.key.weight': 0.875
+      'bert.encoder.layer.2.attention.self.query.weight': 0.45
+      'bert.encoder.layer.2.attention.self.value.weight': 0.55
+      'bert.encoder.layer.2.attention.self.key.weight': 0.875
+      'bert.encoder.layer.3.attention.self.query.weight': 0.45
+      'bert.encoder.layer.3.attention.self.value.weight': 0.55
+      'bert.encoder.layer.3.attention.self.key.weight': 0.875
+      'bert.encoder.layer.4.attention.self.query.weight': 0.45
+      'bert.encoder.layer.4.attention.self.value.weight': 0.55
+      'bert.encoder.layer.4.attention.self.key.weight': 0.875
+      'bert.encoder.layer.5.attention.self.query.weight': 0.45
+      'bert.encoder.layer.5.attention.self.value.weight': 0.55
+      'bert.encoder.layer.5.attention.self.key.weight': 0.875
+      'bert.encoder.layer.6.attention.self.query.weight': 0.45
+      'bert.encoder.layer.6.attention.self.value.weight': 0.55
+      'bert.encoder.layer.6.attention.self.key.weight': 0.875
+      'bert.encoder.layer.7.attention.self.query.weight': 0.45
+      'bert.encoder.layer.7.attention.self.value.weight': 0.55
+      'bert.encoder.layer.7.attention.self.key.weight': 0.875
+      'bert.encoder.layer.8.attention.self.query.weight': 0.45
+      'bert.encoder.layer.8.attention.self.value.weight': 0.55
+      'bert.encoder.layer.8.attention.self.key.weight': 0.875
+      'bert.encoder.layer.9.attention.self.query.weight': 0.45
+      'bert.encoder.layer.9.attention.self.value.weight': 0.55
+      'bert.encoder.layer.9.attention.self.key.weight': 0.875
+
+policies:
+  - pruner:
+      instance_name : 'my_pruner'
+    starting_epoch: 0
+    ending_epoch: 10
+    frequency: 1
