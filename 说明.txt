@@ -1,0 +1,7 @@
+utter-text: user说过的话，字符串
+sys-text：sys的话，一般为空，字符串
+sys-q：sys的意图，字符串
+sys-q：sys的槽位，字符串
+sys-v：sys的槽值，字符串
+y-intent：预测的意图
+y-slot：预测的槽值
